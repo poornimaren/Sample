@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="url" value="https://octoperf.com/"></parameter>
+		<parameter name="email" value="poornimacse92@gmail.com"></parameter>
+		<parameter name="password" value="Poornima@123"></parameter>
+		<parameter name="name" value="TestSample"></parameter>
+		<parameter name="desc" value="SampleDescription Sample"></parameter>
+		<parameter name="urlValue" value="https://www.facebook.com/"></parameter>
+		<classes>
+			<class name="org.task.day4.OctoPerfTestNg" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
